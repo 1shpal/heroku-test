@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'templatDrivenForm';
+  constructor(){};
+  ngOnInit(){}
+  Ragister(regForm:any){
+    console.log(regForm);
+  }
 }
